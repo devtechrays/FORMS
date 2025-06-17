@@ -6,71 +6,84 @@
   <body>
     <div class="whole">
       <div class="main">
-        <h1>YOUR PROFILE</h1>
-        <p>
-          Enter the login information for your account. You will be able to
-          create additional users after registering.
-        </p>
+        <div class="information">
+          <h1 class="title">YOUR PROFILE</h1>
+          <p class="title">
+            Enter the login information for your account. You will be able to
+            create additional users after registering.
+          </p>
+        </div>
 
-        <form>
-          <div class="fname">
-            <label for="fname">First Name</label><br />
-            <input
-              type="text"
-              id="fname"
-              name="fname"
-              placeholder="Input your first name"
-            />
-          </div>
+        <form action="#">
+          <div class="form">
+            <div class="user-details">
+              <!-- <div class="input-box"> -->
+              <label class="form-label" for="fname">First Name</label><br />
+              <input
+                class="form-fields"
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Input your first name"
+              />
+            </div>
 
-          <div class="lname">
-            <label for="lname">Last Name</label><br />
-            <input
-              type="text"
-              id="lname"
-              placeholder="Input your Last name"
-            /><br />
-          </div>
+            <div class="user-details">
+              <label class="form-label" for="lname">Last Name</label><br />
 
-          <div class="email">
-            <label for="email">Email</label> <br />
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Input your email"
-            /><br />
-          </div>
+              <input
+                class="form-fields"
+                type="text"
+                id="lname"
+                placeholder="Input your Last name"
+              />
+            </div>
 
-          <div class="number">
-            <label for="number">Phone Number</label><br />
-            <input
-              type="number"
-              id="number"
-              placeholder="Input your phone number"
-            /><br />
-          </div>
-          <div class="pass">
-            <label for="pass">Password</label><br />
-            <input
-              type="passworrd"
-              id="pass"
-              name="pass"
-              placeholder="Create Password"
-            /><br />
-          </div>
+            <div class="user-details">
+              <label class="form-label" for="email">Email</label><br />
+              <input
+                class="form-fields"
+                type="info"
+                id="email"
+                name="email"
+                placeholder="Input your email"
+              />
+            </div>
 
-          <div class="cpass">
-            <label fpr="cpass">Confirm Password</label><br />
-            <input
-              type="password"
-              id="cpass"
-              name="cpass"
-              placeholder="Confirm Your Password"
-            />
-            <br />
+            <div class="user-details">
+              <label class="form-label" for="number">Phone Number</label><br />
+              <input
+                class="form-fields"
+                type="number"
+                id="number"
+                placeholder="Input your phone number"
+              />
+            </div>
+            <div class="user-details">
+              <label class="form-label" for="pass">Password</label><br />
+              <input
+                class="form-fields"
+                type="password"
+                id="pass"
+                name="pass"
+                placeholder="Create Password"
+              />
+            </div>
+
+            <div class="user-details">
+              <label fpr="cpass">Confirm Password</label><br />
+              <input
+                class="form-fields"
+                type="password"
+                id="cpass"
+                name="cpass"
+                placeholder="Confirm Your Password"
+              />
+            </div>
           </div>
-          <input type="submit" value="submit" />
+          <div class="btn-class">
+            <button class="submit-class" type="submit">Save</button>
+          </div>
         </form>
       </div>
     </div>
